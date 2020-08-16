@@ -11,8 +11,8 @@ Controle du Profil
 ------------------
 
 Miscellaneous
-{ "FriendlyName":"Customiser", "VarName":"hcsvt_Customiser", "Categories":{ "1":"Controle du Profil", "Page":"Miscellaneous" }, "VoiceTrigger":"Démarrer Customizer", "Description":"Ouvrir le customizer." }
-{ "FriendlyName":"Enable voice control", "VarName":"hcsvt_VoiceControlOn", "Categories":{ "1":"Controle du Profil", "Page":"Miscellaneous" }, "VoiceTrigger":"[activate;enable;switch on;turn on] Voice control; Voice control on; Wake up", "Description":"Sets VoiceAttack to listen and action commands." }
+{ "FriendlyName":"Customizer", "VarName":"hcsvt_Customiser", "Categories":{ "1":"Controle du Profil", "Page":"Miscellaneous" }, "VoiceTrigger":"Démarrer Customizer", "Description":"Ouvrir le customizer." }
+{ "FriendlyName":"Activer controle de la voix", "VarName":"hcsvt_VoiceControlOn", "Categories":{ "1":"Controle du Profil", "Page":"Miscellaneous" }, "VoiceTrigger":"[activate;enable;switch on;turn on] Voice control; Voice control on; Wake up", "Description":"Sets VoiceAttack to listen and action commands." }
 { "FriendlyName":"Disable voice control", "VarName":"hcsvt_VoiceControlOff", "Categories":{ "1":"Controle du Profil", "Page":"Miscellaneous" }, "VoiceTrigger":"[deactivate;disable;switch off;turn off] Voice control; Voice control off; Go to sleep", "Description":"Sets VoiceAttack to not listen for commands." }
 { "FriendlyName":"10% VA opacity", "VarName":"hcsvt_VAOpacity10", "Categories":{ "1":"Controle du Profil", "Page":"Miscellaneous" }, "VoiceTrigger":"Changer [the;] GUI to [ten %;10%]", "Description":"Sets the VoiceAttack main window to 10% opacity." }
 { "FriendlyName":"20% VA opacity", "VarName":"hcsvt_VAOpacity20", "Categories":{ "1":"Controle du Profil", "Page":"Miscellaneous" }, "VoiceTrigger":"Changer [the;] GUI to [twenty %;twenny %;20%]", "Description":"Sets the VoiceAttack main window to 20% opacity." }
