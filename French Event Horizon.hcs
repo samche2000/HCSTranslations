@@ -11,7 +11,7 @@ Controle du Profil
 ------------------
 
 Divers
-{ "FriendlyName":"Customizer", "VarName":"hcsvt_Customiser", "Categories":{ "1":"Controle du Profil", "Page":"Divers" }, "VoiceTrigger":"Demarrer Customizer", "Description":"Ouvrir le customizer." }
+{ "FriendlyName":"Customizer",                  "VarName":"hcsvt_Customiser", "Categories":{ "1":"Controle du Profil", "Page":"Divers" }, "VoiceTrigger":"Demarrer Customizer", "Description":"Ouvrir le customizer." }
 { "FriendlyName":"Activer controle de la voix", "VarName":"hcsvt_VoiceControlOn", "Categories":{ "1":"Controle du Profil", "Page":"Divers" }, "VoiceTrigger":"[activer;switch on;turn on] Controle par la Voix; Debout; Reveilles-toi", "Description":"Sets VoiceAttack to listen and action commands." }
 { "FriendlyName":"Disable voice control", "VarName":"hcsvt_VoiceControlOff", "Categories":{ "1":"Controle du Profil", "Page":"Divers" }, "VoiceTrigger":"[desactiver;switch off;turn off] Voice control; Voice control off; Go to sleep", "Description":"Sets VoiceAttack to not listen for commands." }
 { "FriendlyName":"10% VA opacite", "VarName":"hcsvt_VAOpacity10", "Categories":{ "1":"Controle du Profil", "Page":"Divers" }, "VoiceTrigger":"Changer [le;] GUI to [dix %;10%]", "Description":"Sets the VoiceAttack principale fenetre to 10% opacite." }
@@ -360,7 +360,7 @@ Crew Favourites
 Chit-Chat
 ---------
 
-Principal
+General
 { "FriendlyName":"Enable Chit Chat", "VarName":"hcsvt_ChitChatEnable", "Categories":{ "1":"Chit-Chat", "Page":"Principal" }, "VoiceTrigger":"[activer;enable;switch on;turn on] chit chat", "Description":"Chit-chat must be turned on or none of the commands will work." }
 { "FriendlyName":"Disable Chit Chat", "VarName":"hcsvt_ChitChatDisable", "Categories":{ "1":"Chit-Chat", "Page":"Principal" }, "VoiceTrigger":"[desactiver;disable;switch off;turn off] chit chat", "Description":"Turn off the chit-chat commands." }
 Common
@@ -787,7 +787,7 @@ Verity:1
 Educational
 -----------
 
-Principal
+General
 { "FriendlyName":"Ask a question prefix", "VarName":"hcsvt_AskAQuestion", "Categories":{ "1":"Educational", "Page":"Principal" }, "VoiceTrigger":"[what;whats;explain] [is;was;does] [a;an;le;]; [briefly;] Tell me [everything;] about", "Description":"Added to each of the edu commands. The word 'briefly' activers a short answer when used with Elite ships." }
 { "FriendlyName":"Enable Constellations", "VarName":"hcsvt_ConstEnable", "Categories":{ "1":"Educational", "Page":"Principal" }, "VoiceTrigger":"[activer;enable;switch on;turn on] constellations", "Description":"Enable Constellations." }
 { "FriendlyName":"Disable Constellations", "VarName":"hcsvt_ConstDisable", "Categories":{ "1":"Educational", "Page":"Principal" }, "VoiceTrigger":"[desactiver;disable;switch off;turn off] constellations", "Description":"Disable Constellations." }
@@ -1257,7 +1257,7 @@ Star Citizen Ships:4
 Echoes from the hold
 --------------------
 
-Principal
+General
 { "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesPatch", "Categories":{ "1":"Echoes from the hold", "Page":"Principal" }, "VoiceTrigger":"Patch me through to the hold; Whats going on in the hold", "Description":"Plays the next scene." }
 { "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesRandom", "Categories":{ "1":"Echoes from the hold", "Page":"Principal" }, "VoiceTrigger":"Play a random scene", "Description":"Have we caught that Budgie yet? I'm scared some wormhole will turn it into a T-Rex!" }
 { "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesReset", "Categories":{ "1":"Echoes from the hold", "Page":"Principal" }, "VoiceTrigger":"Reset echoes", "Description":"Sets patch me through to the hold to start playing from the beginning." }
@@ -1274,7 +1274,7 @@ Principal
 Companions
 ----------
 
-Ship's Cat
+Chat du vaisseau
 { "FriendlyName":"Cat's name", "VarName":"hcsvt_ShipsCatN", "AddToTriggers":false, "Categories":{ "1":"Companions", "Page":"Ship's Cat" }, "Dynamic":false, "VoiceTrigger":"the cat; the ships cat; le chat", "Description":"The ship's cats name." }
 { "VarName":"hcsvt_ShipsCatName", "AddToTriggers":false, "VoiceTrigger":"[{TXT:hcsvt_ShipsCatN}]" }
 { "FriendlyName":"The Ship's Cat", "VarName":"hcsvt_ShipsCatFeedCat", "Categories":{ "1":"Companions", "Page":"Ship's Cat" }, "VoiceTrigger":"[can you;] feed {TXT:hcsvt_ShipsCatName} [s'il vous plait;];[peux-tu;] nourrir {TXT:hcsvt_ShipsCatName} [s'il te plait]", "Description":"You must feed the cat before it will speak to you." }
@@ -1320,7 +1320,7 @@ Ship's Parrot
 Musique
 -------
 
-Main
+General
 { "FriendlyName":"Play music", "VarName":"hcsvt_MusicPlay", "Categories":{ "1":"Musique", "Page":"Principal" }, "VoiceTrigger":"play music", "Description":"Presses the play global media hotkey." }
 { "FriendlyName":"Pause music", "VarName":"hcsvt_MusicPause", "Categories":{ "1":"Musique", "Page":"Principal" }, "VoiceTrigger":"pause music", "Description":"Presses the pause global media hotkey." }
 { "FriendlyName":"Stop music", "VarName":"hcsvt_MusicStop", "Categories":{ "1":"Musique", "Page":"Principal" }, "VoiceTrigger":"stop music", "Description":"Presses the stop global media hotkey." }
@@ -1337,7 +1337,7 @@ Main
 Pack Personnel
 --------------
 
-Main
+General
 { "FriendlyName":"Personal pack 1", "VarName":"hcsvt_PP1", "Categories":{ "1":"Personal Pack", "Page":"Principal" }, "VoiceTrigger":"[sommes-nous;are you; is the ship] ready [to go;to leave;for launch]", "Description":"Personal pack interaction." }
 { "FriendlyName":"Personal pack 2", "VarName":"hcsvt_PP2", "Categories":{ "1":"Personal Pack", "Page":"Principal" }, "VoiceTrigger":"Are you here; Where are you", "Description":"Personal pack interaction." }
 { "FriendlyName":"Personal pack 3", "VarName":"hcsvt_PP3", "Categories":{ "1":"Personal Pack", "Page":"Principal" }, "VoiceTrigger":"[can;did;can't] you hear me; You can hear me?", "Description":"Personal pack interaction." }
