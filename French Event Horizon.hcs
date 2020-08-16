@@ -360,9 +360,9 @@ Crew Favourites
 Chit-Chat
 ---------
 
-Main
-{ "FriendlyName":"Enable Chit Chat", "VarName":"hcsvt_ChitChatEnable", "Categories":{ "1":"Chit-Chat", "Page":"Main" }, "VoiceTrigger":"[activer;enable;switch on;turn on] chit chat", "Description":"Chit-chat must be turned on or none of the commands will work." }
-{ "FriendlyName":"Disable Chit Chat", "VarName":"hcsvt_ChitChatDisable", "Categories":{ "1":"Chit-Chat", "Page":"Main" }, "VoiceTrigger":"[desactiver;disable;switch off;turn off] chit chat", "Description":"Turn off the chit-chat commands." }
+Principal
+{ "FriendlyName":"Enable Chit Chat", "VarName":"hcsvt_ChitChatEnable", "Categories":{ "1":"Chit-Chat", "Page":"Principal" }, "VoiceTrigger":"[activer;enable;switch on;turn on] chit chat", "Description":"Chit-chat must be turned on or none of the commands will work." }
+{ "FriendlyName":"Disable Chit Chat", "VarName":"hcsvt_ChitChatDisable", "Categories":{ "1":"Chit-Chat", "Page":"Principal" }, "VoiceTrigger":"[desactiver;disable;switch off;turn off] chit chat", "Description":"Turn off the chit-chat commands." }
 Common
 { "FriendlyName":"Common Chit Chat", "VarName":"hcsvt_CommonIntroduce", "Categories":{ "1":"Chit-Chat", "Page":"Common" }, "VoiceTrigger":"[say bonjour to the stream;introduce yourself]", "Description":"The last crew member to speak will answer." }
 { "FriendlyName":"Common Chit Chat", "VarName":"hcsvt_CommonAllIntroduce", "Categories":{ "1":"Chit-Chat", "Page":"Common" }, "VoiceTrigger":"all stations [say bonjour to the stream;introduce yourself]", "Description":"All stations will reply." }
@@ -787,16 +787,16 @@ Verity:1
 Educational
 -----------
 
-Main
-{ "FriendlyName":"Ask a question prefix", "VarName":"hcsvt_AskAQuestion", "Categories":{ "1":"Educational", "Page":"Main" }, "VoiceTrigger":"[what;whats;explain] [is;was;does] [a;an;le;]; [briefly;] Tell me [everything;] about", "Description":"Added to each of the edu commands. The word 'briefly' activers a short answer when used with Elite ships." }
-{ "FriendlyName":"Enable Constellations", "VarName":"hcsvt_ConstEnable", "Categories":{ "1":"Educational", "Page":"Main" }, "VoiceTrigger":"[activer;enable;switch on;turn on] constellations", "Description":"Enable Constellations." }
-{ "FriendlyName":"Disable Constellations", "VarName":"hcsvt_ConstDisable", "Categories":{ "1":"Educational", "Page":"Main" }, "VoiceTrigger":"[desactiver;disable;switch off;turn off] constellations", "Description":"Disable Constellations." }
-{ "FriendlyName":"Enable GalaXapediA", "VarName":"hcsvt_GalaxEnable", "Categories":{ "1":"Educational", "Page":"Main" }, "VoiceTrigger":"[activer;enable;switch on;turn on] [galaxapedia;galactapedia]", "Description":"Enable GalaXapediA." }
-{ "FriendlyName":"Disable GalaXapediA", "VarName":"hcsvt_GalaxDisable", "Categories":{ "1":"Educational", "Page":"Main" }, "VoiceTrigger":"[desactiver;disable;switch off;turn off] [galaxapedia;galactapedia]", "Description":"Disable GalaXapediA." }
-{ "FriendlyName":"Enable Quantum Theory", "VarName":"hcsvt_QuantumEnable", "Categories":{ "1":"Educational", "Page":"Main" }, "VoiceTrigger":"[activer;enable;switch on;turn on] quantum theory", "Description":"Enable Quantum Theory." }
-{ "FriendlyName":"Disable Quantum Theory", "VarName":"hcsvt_QuantumDisable", "Categories":{ "1":"Educational", "Page":"Main" }, "VoiceTrigger":"[desactiver;disable;switch off;turn off] quantum theory", "Description":"Disable Quantum Theory." }
-{ "FriendlyName":"Enable Stars and Planets", "VarName":"hcsvt_StarsEnable", "Categories":{ "1":"Educational", "Page":"Main" }, "VoiceTrigger":"[activer;enable;switch on;turn on] stars and planets", "Description":"Enable Stars and Planets. Information when scanning stars and planets." }
-{ "FriendlyName":"Disable Stars and Planets", "VarName":"hcsvt_StarsDisable", "Categories":{ "1":"Educational", "Page":"Main" }, "VoiceTrigger":"[desactiver;disable;switch off;turn off] stars and planets", "Description":"Disable Stars and Planets." }
+Principal
+{ "FriendlyName":"Ask a question prefix", "VarName":"hcsvt_AskAQuestion", "Categories":{ "1":"Educational", "Page":"Principal" }, "VoiceTrigger":"[what;whats;explain] [is;was;does] [a;an;le;]; [briefly;] Tell me [everything;] about", "Description":"Added to each of the edu commands. The word 'briefly' activers a short answer when used with Elite ships." }
+{ "FriendlyName":"Enable Constellations", "VarName":"hcsvt_ConstEnable", "Categories":{ "1":"Educational", "Page":"Principal" }, "VoiceTrigger":"[activer;enable;switch on;turn on] constellations", "Description":"Enable Constellations." }
+{ "FriendlyName":"Disable Constellations", "VarName":"hcsvt_ConstDisable", "Categories":{ "1":"Educational", "Page":"Principal" }, "VoiceTrigger":"[desactiver;disable;switch off;turn off] constellations", "Description":"Disable Constellations." }
+{ "FriendlyName":"Enable GalaXapediA", "VarName":"hcsvt_GalaxEnable", "Categories":{ "1":"Educational", "Page":"Principal" }, "VoiceTrigger":"[activer;enable;switch on;turn on] [galaxapedia;galactapedia]", "Description":"Enable GalaXapediA." }
+{ "FriendlyName":"Disable GalaXapediA", "VarName":"hcsvt_GalaxDisable", "Categories":{ "1":"Educational", "Page":"Principal" }, "VoiceTrigger":"[desactiver;disable;switch off;turn off] [galaxapedia;galactapedia]", "Description":"Disable GalaXapediA." }
+{ "FriendlyName":"Enable Quantum Theory", "VarName":"hcsvt_QuantumEnable", "Categories":{ "1":"Educational", "Page":"Principal" }, "VoiceTrigger":"[activer;enable;switch on;turn on] quantum theory", "Description":"Enable Quantum Theory." }
+{ "FriendlyName":"Disable Quantum Theory", "VarName":"hcsvt_QuantumDisable", "Categories":{ "1":"Educational", "Page":"Principal" }, "VoiceTrigger":"[desactiver;disable;switch off;turn off] quantum theory", "Description":"Disable Quantum Theory." }
+{ "FriendlyName":"Enable Stars and Planets", "VarName":"hcsvt_StarsEnable", "Categories":{ "1":"Educational", "Page":"Principal" }, "VoiceTrigger":"[activer;enable;switch on;turn on] stars and planets", "Description":"Enable Stars and Planets. Information when scanning stars and planets." }
+{ "FriendlyName":"Disable Stars and Planets", "VarName":"hcsvt_StarsDisable", "Categories":{ "1":"Educational", "Page":"Principal" }, "VoiceTrigger":"[desactiver;disable;switch off;turn off] stars and planets", "Description":"Disable Stars and Planets." }
 Constellations:1
 { "FriendlyName":"Random constellation", "VarName":"hcsvt_ConstRandom", "Categories":{ "1":"Educational", "2":"Constellations", "Page":"1" }, "VoiceTrigger":"[give;tell] me a random constellation [fact;]; Tell me about one of the constellations", "Description":"Picks any constellation fact at random." }
 { "FriendlyName":"Constellations", "VarName":"hcsvt_ConstAndromeda", "Prefix":"hcsvt_AskAQuestion", "Categories":{ "1":"Educational", "2":"Constellations", "Page":"1" }, "VoiceTrigger":"Constellation Andromeda", "Description":"Constellation Facts." }
@@ -1257,17 +1257,17 @@ Star Citizen Ships:4
 Echoes from the hold
 --------------------
 
-Main
-{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesPatch", "Categories":{ "1":"Echoes from the hold", "Page":"Main" }, "VoiceTrigger":"Patch me through to the hold; Whats going on in the hold", "Description":"Plays the next scene." }
-{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesRandom", "Categories":{ "1":"Echoes from the hold", "Page":"Main" }, "VoiceTrigger":"Play a random scene", "Description":"Have we caught that Budgie yet? I'm scared some wormhole will turn it into a T-Rex!" }
-{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesReset", "Categories":{ "1":"Echoes from the hold", "Page":"Main" }, "VoiceTrigger":"Reset echoes", "Description":"Sets patch me through to the hold to start playing from the beginning." }
-{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesBonjourAgain", "Categories":{ "1":"Echoes from the hold", "Page":"Main" }, "VoiceTrigger":"Bonjour again Midnight; Midnight what news do you have; Midnight you have some information", "Description":"Echoes chatter." }
-{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesStowaways", "Categories":{ "1":"Echoes from the hold", "Page":"Main" }, "VoiceTrigger":"These stowaways could be a problem", "Description":"Echoes chatter." }
-{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesLifepod", "Categories":{ "1":"Echoes from the hold", "Page":"Main" }, "VoiceTrigger":"Who's in the lifepod; Who is in the lifepod ", "Description":"Echoes chatter." }
-{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesKidnapping", "Categories":{ "1":"Echoes from the hold", "Page":"Main" }, "VoiceTrigger":"Who do you believe is behind this kidnapping", "Description":"Echoes chatter." }
-{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesSpecial", "Categories":{ "1":"Echoes from the hold", "Page":"Main" }, "VoiceTrigger":"What makes my ship so special; What makes me so special", "Description":"Echoes chatter." }
-{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesDanger", "Categories":{ "1":"Echoes from the hold", "Page":"Main" }, "VoiceTrigger":"Am I in any danger", "Description":"Echoes chatter." }
-{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesShouldDo", "Categories":{ "1":"Echoes from the hold", "Page":"Main" }, "VoiceTrigger":"What do you think I should do", "Description":"Echoes chatter." }
+Principal
+{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesPatch", "Categories":{ "1":"Echoes from the hold", "Page":"Principal" }, "VoiceTrigger":"Patch me through to the hold; Whats going on in the hold", "Description":"Plays the next scene." }
+{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesRandom", "Categories":{ "1":"Echoes from the hold", "Page":"Principal" }, "VoiceTrigger":"Play a random scene", "Description":"Have we caught that Budgie yet? I'm scared some wormhole will turn it into a T-Rex!" }
+{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesReset", "Categories":{ "1":"Echoes from the hold", "Page":"Principal" }, "VoiceTrigger":"Reset echoes", "Description":"Sets patch me through to the hold to start playing from the beginning." }
+{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesBonjourAgain", "Categories":{ "1":"Echoes from the hold", "Page":"Principal" }, "VoiceTrigger":"Bonjour again Midnight; Midnight what news do you have; Midnight you have some information", "Description":"Echoes chatter." }
+{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesStowaways", "Categories":{ "1":"Echoes from the hold", "Page":"Principal" }, "VoiceTrigger":"These stowaways could be a problem", "Description":"Echoes chatter." }
+{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesLifepod", "Categories":{ "1":"Echoes from the hold", "Page":"Principal" }, "VoiceTrigger":"Who's in the lifepod; Who is in the lifepod ", "Description":"Echoes chatter." }
+{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesKidnapping", "Categories":{ "1":"Echoes from the hold", "Page":"Principal" }, "VoiceTrigger":"Who do you believe is behind this kidnapping", "Description":"Echoes chatter." }
+{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesSpecial", "Categories":{ "1":"Echoes from the hold", "Page":"Principal" }, "VoiceTrigger":"What makes my ship so special; What makes me so special", "Description":"Echoes chatter." }
+{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesDanger", "Categories":{ "1":"Echoes from the hold", "Page":"Principal" }, "VoiceTrigger":"Am I in any danger", "Description":"Echoes chatter." }
+{ "FriendlyName":"Echoes from the hold", "VarName":"hcsvt_EchoesShouldDo", "Categories":{ "1":"Echoes from the hold", "Page":"Principal" }, "VoiceTrigger":"What do you think I should do", "Description":"Echoes chatter." }
 
 
 ----------
@@ -1316,21 +1316,21 @@ Ship's Parrot
 { "FriendlyName":"The Ship's Parrot", "VarName":"hcsvt_ShipsParrotTalk", "Categories":{ "1":"Companions", "Page":"Ship's Parrot" }, "VoiceTrigger":"Talk to me Parrot; Does this parrot talk", "Description":"I wish it didn't!" }
 
 
------
-Music
------
+-------
+Musique
+-------
 
 Main
-{ "FriendlyName":"Play music", "VarName":"hcsvt_MusicPlay", "Categories":{ "1":"Music", "Page":"Main" }, "VoiceTrigger":"play music", "Description":"Presses the play global media hotkey." }
-{ "FriendlyName":"Pause music", "VarName":"hcsvt_MusicPause", "Categories":{ "1":"Music", "Page":"Main" }, "VoiceTrigger":"pause music", "Description":"Presses the pause global media hotkey." }
-{ "FriendlyName":"Stop music", "VarName":"hcsvt_MusicStop", "Categories":{ "1":"Music", "Page":"Main" }, "VoiceTrigger":"stop music", "Description":"Presses the stop global media hotkey." }
-{ "FriendlyName":"Next track", "VarName":"hcsvt_MusicNextTrack", "Categories":{ "1":"Music", "Page":"Main" }, "VoiceTrigger":"next track", "Description":"Presses the next track global media hotkey." }
-{ "FriendlyName":"Previous track", "VarName":"hcsvt_MusicPrevTrack", "Categories":{ "1":"Music", "Page":"Main" }, "VoiceTrigger":"previous track", "Description":"Presses the previous track global media hotkey." }
-{ "FriendlyName":"Raise volume", "VarName":"hcsvt_MusicRaiseVol", "Categories":{ "1":"Music", "Page":"Main" }, "VoiceTrigger":"raise volume", "Description":"Presses the raise volume global media hotkey." }
-{ "FriendlyName":"Lower volume", "VarName":"hcsvt_MusicLowerVol", "Categories":{ "1":"Music", "Page":"Main" }, "VoiceTrigger":"lower volume", "Description":"Presses the lower volume global media hotkey." }
-{ "FriendlyName":"Max volume", "VarName":"hcsvt_MusicMaxVol", "Categories":{ "1":"Music", "Page":"Main" }, "VoiceTrigger":"[max;maximum] volume", "Description":"Presses the raise volume global media hotkey." }
-{ "FriendlyName":"Mute volume", "VarName":"hcsvt_MusicMute", "Categories":{ "1":"Music", "Page":"Main" }, "VoiceTrigger":"mute volume", "Description":"Presses the mute global media hotkey." }
-{ "FriendlyName":"Unmute volume", "VarName":"hcsvt_MusicUnMute", "Categories":{ "1":"Music", "Page":"Main" }, "VoiceTrigger":"unmute volume", "Description":"Presses the unmute global media hotkey." }
+{ "FriendlyName":"Play music", "VarName":"hcsvt_MusicPlay", "Categories":{ "1":"Musique", "Page":"Principal" }, "VoiceTrigger":"play music", "Description":"Presses the play global media hotkey." }
+{ "FriendlyName":"Pause music", "VarName":"hcsvt_MusicPause", "Categories":{ "1":"Musique", "Page":"Principal" }, "VoiceTrigger":"pause music", "Description":"Presses the pause global media hotkey." }
+{ "FriendlyName":"Stop music", "VarName":"hcsvt_MusicStop", "Categories":{ "1":"Musique", "Page":"Principal" }, "VoiceTrigger":"stop music", "Description":"Presses the stop global media hotkey." }
+{ "FriendlyName":"Next track", "VarName":"hcsvt_MusicNextTrack", "Categories":{ "1":"Musique", "Page":"Principal" }, "VoiceTrigger":"next track", "Description":"Presses the next track global media hotkey." }
+{ "FriendlyName":"Previous track", "VarName":"hcsvt_MusicPrevTrack", "Categories":{ "1":"Musique", "Page":"Principal" }, "VoiceTrigger":"previous track", "Description":"Presses the previous track global media hotkey." }
+{ "FriendlyName":"Raise volume", "VarName":"hcsvt_MusicRaiseVol", "Categories":{ "1":"Musique", "Page":"Principal" }, "VoiceTrigger":"raise volume", "Description":"Presses the raise volume global media hotkey." }
+{ "FriendlyName":"Lower volume", "VarName":"hcsvt_MusicLowerVol", "Categories":{ "1":"Musique", "Page":"Principal" }, "VoiceTrigger":"lower volume", "Description":"Presses the lower volume global media hotkey." }
+{ "FriendlyName":"Max volume", "VarName":"hcsvt_MusicMaxVol", "Categories":{ "1":"Musique", "Page":"Principal" }, "VoiceTrigger":"[max;maximum] volume", "Description":"Presses the raise volume global media hotkey." }
+{ "FriendlyName":"Mute volume", "VarName":"hcsvt_MusicMute", "Categories":{ "1":"Musique", "Page":"Principal" }, "VoiceTrigger":"mute volume", "Description":"Presses the mute global media hotkey." }
+{ "FriendlyName":"Unmute volume", "VarName":"hcsvt_MusicUnMute", "Categories":{ "1":"Musique", "Page":"Principal" }, "VoiceTrigger":"unmute volume", "Description":"Presses the unmute global media hotkey." }
 
 
 --------------
@@ -1338,14 +1338,14 @@ Pack Personnel
 --------------
 
 Main
-{ "FriendlyName":"Personal pack 1", "VarName":"hcsvt_PP1", "Categories":{ "1":"Personal Pack", "Page":"Main" }, "VoiceTrigger":"[sommes-nous;are you; is the ship] ready [to go;to leave;for launch]", "Description":"Personal pack interaction." }
-{ "FriendlyName":"Personal pack 2", "VarName":"hcsvt_PP2", "Categories":{ "1":"Personal Pack", "Page":"Main" }, "VoiceTrigger":"Are you here; Where are you", "Description":"Personal pack interaction." }
-{ "FriendlyName":"Personal pack 3", "VarName":"hcsvt_PP3", "Categories":{ "1":"Personal Pack", "Page":"Main" }, "VoiceTrigger":"[can;did;can't] you hear me; You can hear me?", "Description":"Personal pack interaction." }
-{ "FriendlyName":"Personal pack 4", "VarName":"hcsvt_PP4", "Categories":{ "1":"Personal Pack", "Page":"Main" }, "VoiceTrigger":"goodbye", "Description":"Personal pack interaction." }
-{ "FriendlyName":"Personal pack 5", "VarName":"hcsvt_PP5", "Categories":{ "1":"Personal Pack", "Page":"Main" }, "VoiceTrigger":"[bonjour;hi] [there;]; salutations", "Description":"Personal pack interaction." }
-{ "FriendlyName":"Personal pack 6", "VarName":"hcsvt_PP6", "Categories":{ "1":"Personal Pack", "Page":"Main" }, "VoiceTrigger":"[bonjour;] how are you; Are you [well;okay]", "Description":"Personal pack interaction." }
-{ "FriendlyName":"Personal pack 7", "VarName":"hcsvt_PP7", "Categories":{ "1":"Personal Pack", "Page":"Main" }, "VoiceTrigger":"I've arrived; Is anyone [here;about]; Copilot?; Look alive", "Description":"Personal pack interaction." }
-{ "FriendlyName":"Personal pack 8", "VarName":"hcsvt_PP8", "Categories":{ "1":"Personal Pack", "Page":"Main" }, "VoiceTrigger":"[report s'il vous plait;s'il vous plait report;status s'il vous plait]", "Description":"Personal pack interaction." }
-{ "FriendlyName":"Personal pack 9", "VarName":"hcsvt_PP9", "Categories":{ "1":"Personal Pack", "Page":"Main" }, "VoiceTrigger":"what are you", "Description":"Personal pack interaction." }
-{ "FriendlyName":"Personal pack 10", "VarName":"hcsvt_PP10", "Categories":{ "1":"Personal Pack", "Page":"Main" }, "VoiceTrigger":"why am I here; what is my purpose; explain my job; tell me what to do", "Description":"Personal pack interaction." }
-{ "FriendlyName":"Personal pack 11", "VarName":"hcsvt_PP11", "Categories":{ "1":"Personal Pack", "Page":"Main" }, "VoiceTrigger":"You're doing very well; Very efficient; Well done; Good work; That was great work; Very good work; I'll have to promote you", "Description":"Personal pack interaction." }
+{ "FriendlyName":"Personal pack 1", "VarName":"hcsvt_PP1", "Categories":{ "1":"Personal Pack", "Page":"Principal" }, "VoiceTrigger":"[sommes-nous;are you; is the ship] ready [to go;to leave;for launch]", "Description":"Personal pack interaction." }
+{ "FriendlyName":"Personal pack 2", "VarName":"hcsvt_PP2", "Categories":{ "1":"Personal Pack", "Page":"Principal" }, "VoiceTrigger":"Are you here; Where are you", "Description":"Personal pack interaction." }
+{ "FriendlyName":"Personal pack 3", "VarName":"hcsvt_PP3", "Categories":{ "1":"Personal Pack", "Page":"Principal" }, "VoiceTrigger":"[can;did;can't] you hear me; You can hear me?", "Description":"Personal pack interaction." }
+{ "FriendlyName":"Personal pack 4", "VarName":"hcsvt_PP4", "Categories":{ "1":"Personal Pack", "Page":"Principal" }, "VoiceTrigger":"goodbye", "Description":"Personal pack interaction." }
+{ "FriendlyName":"Personal pack 5", "VarName":"hcsvt_PP5", "Categories":{ "1":"Personal Pack", "Page":"Principal" }, "VoiceTrigger":"[bonjour;hi] [there;]; salutations", "Description":"Personal pack interaction." }
+{ "FriendlyName":"Personal pack 6", "VarName":"hcsvt_PP6", "Categories":{ "1":"Personal Pack", "Page":"Principal" }, "VoiceTrigger":"[bonjour;] how are you; Are you [well;okay]", "Description":"Personal pack interaction." }
+{ "FriendlyName":"Personal pack 7", "VarName":"hcsvt_PP7", "Categories":{ "1":"Personal Pack", "Page":"Principal" }, "VoiceTrigger":"I've arrived; Is anyone [here;about]; Copilot?; Look alive", "Description":"Personal pack interaction." }
+{ "FriendlyName":"Personal pack 8", "VarName":"hcsvt_PP8", "Categories":{ "1":"Personal Pack", "Page":"Principal" }, "VoiceTrigger":"[report s'il vous plait;s'il vous plait report;status s'il vous plait]", "Description":"Personal pack interaction." }
+{ "FriendlyName":"Personal pack 9", "VarName":"hcsvt_PP9", "Categories":{ "1":"Personal Pack", "Page":"Principal" }, "VoiceTrigger":"what are you", "Description":"Personal pack interaction." }
+{ "FriendlyName":"Personal pack 10", "VarName":"hcsvt_PP10", "Categories":{ "1":"Personal Pack", "Page":"Principal" }, "VoiceTrigger":"why am I here; what is my purpose; explain my job; tell me what to do", "Description":"Personal pack interaction." }
+{ "FriendlyName":"Personal pack 11", "VarName":"hcsvt_PP11", "Categories":{ "1":"Personal Pack", "Page":"Principal" }, "VoiceTrigger":"You're doing very well; Very efficient; Well done; Good work; That was great work; Very good work; I'll have to promote you", "Description":"Personal pack interaction." }
